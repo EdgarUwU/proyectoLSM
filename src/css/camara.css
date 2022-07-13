@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+.container__screen {
+    align-items: center;
+    background-color: #ECECEC;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+.canvas {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+.camera-screen__card-body span {
+    font-size: 90px;
+}
+video {
+    border-radius: 20px;
+
+}
+.camera-screen__video-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+}
+.camera-screen__cargando-camara {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
