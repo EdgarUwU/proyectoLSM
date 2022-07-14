@@ -23,10 +23,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="../css/camara.css" />
     <link rel="stylesheet" href="../css/modal.css" />
 
-    <title>Aprendiendo lenguaje de señas</title>
+    <title>LSM traslate</title>
   </head>
 
   <body>
@@ -35,47 +34,10 @@
       <div class="camera-screen__container">
         <div class="camera-screen__video-container">
           <div id="cargando-camara" class="camera-screen__cargando-camara">
-            <span>Cargando camara</span>
             <div class="spinner-border text-light" role="status">
               <span class="sr-only"></span>
             </div>
           </div>
-          <video
-            class="no-desplegado animate__animated animate__zoomIn"
-            id="video"
-            playsinline
-            autoplay="true"
-          ></video>
-        </div>
-        <div class="camera-screen__letter-card-container">
-          <button id="atras" class="camera-screen__fab-letter-card" disabled>
-            <!-- <i class="fas fa-arrow-left"></i> -->
-            <span>Anterior</span>
-          </button>
-          <div id="card" class="camera-screen__letter-card animate__animated">
-            <div class="camera-screen__card-head">
-              <div class="camera-screen__img-container">
-                <img id="imagenMano" src="../src/A1.png" alt="letra" />
-              </div>
-            </div>
-            <div class="camera-screen__card-body">
-              <span id="letra">Aa</span>
-            </div>
-            <div
-              id="checador"
-              class="camera-screen__sign-lang-successfully hidden"
-            >
-              <i class="fas fa-check"></i>
-            </div>
-          </div>
-          <button id="adelante" class="camera-screen__fab-letter-card">
-            <!-- <i class="fas fa-arrow-right"></i> -->
-            <span>Siguiente</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <canvas id="canvas1" class="canvas"></canvas>
 
     <!-- Modal mostrado para cargar el modelo y mostrar instrucciones de uso de la aplicación -->
 
@@ -93,15 +55,14 @@
             <div class="modal__slide">
               <img src="../img/ejemplo1.png" alt="ejemplo1" />
               <div class="modal__slide-text">
-                <span>Intenta hacer la seña lo más cerca posible.</span>
+                <span>Instruccion 1</span>
               </div>
             </div>
             <div class="modal__slide">
               <img src="../img/ejemplo2.jpg" alt="ejemplo2" />
               <div class="modal__slide-text">
                 <span
-                  >Se recomienda tener un lugar plano detrás de la mano y no
-                  estar en contra luz.</span
+                  >Instruccion 2</span
                 >
               </div>
             </div>
