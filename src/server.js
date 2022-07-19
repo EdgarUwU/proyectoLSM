@@ -5,12 +5,12 @@ const app = express();
 
 const indexHtmlPath = path.join( __dirname, './views/index.html' );
 
-const PORT = process.env.PORT || '3001';
+const PORT = process.env.PORT || '3000';
 
 app.use( express.static( path.join( __dirname, './' ) ) );
 app.use( express.json() );
 app.use( cors({
-    origin: 'http://localhost:3001/'
+    origin: 'http://localhost:3000/'
 }));
 
 

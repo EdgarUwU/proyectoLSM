@@ -13,35 +13,35 @@ const arregloAbecedario = [
     },
     {
         letra: "Dd",
-        url: "../img/Dd.png"
+        url: "../img/Dd.jpg"
     },
     {
         letra: "Ee",
-        url: "../img/Ee.png"
+        url: "../img/Ee.jpg"
     },
     {
         letra: "Ff",
-        url: "../img/Ff.png"
+        url: "../img/Ff.jpg"
     },
     {
         letra: "Ii",
-        url: "../img/Ii.png"
+        url: "../img/Ii.jpg"
     },
     {
         letra: "Ll",
-        url: "../img/Ll.png"
+        url: "../img/Ll.jpg"
     },
     {
         letra: "Rr",
-        url: "../img/Rr.png"
+        url: "../img/Rr.jpg"
     },
     {
         letra: "Ss",
-        url: "../img/Ss.png"
+        url: "../img/Ss.jpg"
     },
     {
         letra: "Tt",
-        url: "../img/Tt.png"
+        url: "../img/Tt.jpg"
     },
     {
         letra: "Uu",
@@ -49,15 +49,15 @@ const arregloAbecedario = [
     },
     {
         letra: "Vv",
-        url: "../img/Vv.png"
+        url: "../img/Vv.jpg"
     },
     {
         letra: "Ww",
-        url: "../img/Ww.png"
+        url: "../img/Ww.jpg"
     },
     {
         letra: "Yy",
-        url: "../img/Yy.png"
+        url: "../img/Yy.jpg"
     },
 ];
 
