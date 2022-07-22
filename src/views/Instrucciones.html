@@ -24,12 +24,15 @@
     <div class="container__screen">
         <div class="camera-screen__container">
             <div class="camera-screen__video-container">
+                <div class="camera-screen_btn_predecir">
+                    <button id="predecir" class="camera-screen__fab-letter-card">Predecir</button>
+                </div>
                 <div id="cargando-camara" class="camera-screen__cargando-camara">
                     <span>Cargando camara</span>
                     <div class="spinner-border text-light" role="status">
                         <span class="sr-only"></span>
                     </div>
-                </div>
+                </div> 
                 <video class="no-desplegado animate__animated animate__zoomIn" id="video" playsinline autoplay="true"></video>
             </div>
             <div class="camera-screen__letter-card-container">

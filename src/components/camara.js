@@ -11,6 +11,8 @@ const imgManoEjemplo = document.querySelector("#imagenMano");
 
 const btnAtras = document.querySelector("#atras");
 const btnSiguiente = document.querySelector("#adelante");
+const btnPredecir = document.querySelector("#predecir");
+
 
 const tarjetaLetra = document.querySelector("#card");
 const checadorSeñas = document.querySelector("#checador");
@@ -71,11 +73,16 @@ const predecir = () => {
     agregarClaseExitoSeña();
   }
 
-  setTimeout(() => {
-    predecir();
-  }, 500);
+  // setTimeout(() => {
+  //   predecir();
+  // }, 500);
+
+  console.log(contadorDeLetras);
   console.log(respuesta);
 };
+btnPredecir.addEventListener("click", () => {
+  predecir();
+})
 
 btnSiguiente.addEventListener("click", () => {
   contadorDeLetras++;
@@ -122,7 +129,7 @@ const ejecutarApp = async () => {
     setInterval(() => {
       encenderCanvas(video, tamaño);
     }, 30);
-    predecir();
+    
   } catch (err) {
     console.log(err);
   }
